@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.custom-scrollbar::-webkit-scrollbar {
+  height: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px; /* Make it narrow */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #1e3a8a;
+  border-radius: 50px;
+}
